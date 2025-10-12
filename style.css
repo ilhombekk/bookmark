@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* BUTTON stillari */
@@ -295,4 +295,82 @@ img {
   font-size: 18px;
   line-height: 28px;
   color: #9194A2;
+}
+
+.Features-section-info {
+  margin-bottom: 44px;
+}
+
+/* tabs  */
+
+.tabs {
+}
+.tabs-list {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.tabs-item-active .tabs-link:hover {
+  color: #242A45;
+  border-color: #FA5959;
+}
+.tabs-item {
+  width: 243px;
+  border-bottom: 1px solid rgba(73, 93, 207, 0.2);
+}
+.tabs-link {
+  display: block;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  border-bottom: 4px solid transparent;
+  font-size: 16px;
+  line-height: 17px;
+  color: #242A45;
+  text-align: center;
+  text-decoration: none;
+}
+.tabs-link:hover {
+  color: #FA5959;
+  text-decoration: none;
+}
+.tabs-ponels {
+padding-top: 75px;
+padding-bottom: 165px;
+}
+.tabs-panel-active {
+  display: block;
+
+}
+.tabs-panel {
+  display: none;
+}
+.feature-tab-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature-tab-panel-img {
+  margin-right: 30px;
+  object-fit: contain;
+}
+.feature-tab-panel-info {
+  object-fit: 445px;
+}
+.feature-tab-panel-tittle {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 32px;
+  line-height: 52px;
+  font-weight: 500;
+  color: rgba(36, 42, 69, 1);
+}
+.feature-tab-panel-text {
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 28px;
+}
+.button-red {
 }
